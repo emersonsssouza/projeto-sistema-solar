@@ -271,13 +271,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.netuno > img {
     height: 20px;
     width: 20px;
     animation: netuno 28s linear infinite;
   }
-  
+
   @keyframes netuno {
     0% {
       transform: rotate(0deg) translate(180px) rotate(0deg);
@@ -286,7 +286,7 @@ div.sol > img {
       transform: rotate(360deg) translate(180px) rotate(0deg);
     }
   }
-  
+
   div.urano {
     position: absolute;
     height: 290px;
@@ -297,13 +297,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.urano > img {
     height: 15px;
     width: 15px;
     animation: urano 53954ms linear infinite;
   }
-  
+
   @keyframes urano {
     0% {
       transform: rotate(0deg) translate(145px) rotate(0deg);
@@ -312,7 +312,7 @@ div.sol > img {
       transform: rotate(360deg) translate(145px) rotate(0deg);
     }
   }
-  
+
   div.saturno {
     position: absolute;
     height: 240px;
@@ -323,13 +323,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.saturno > img {
     height: 30px;
     width: 80px;
     animation: saturno 20s linear infinite;
   }
-  
+
   @keyframes saturno {
     0% {
       transform: rotate(0deg) translate(120px) rotate(180deg);
@@ -338,7 +338,7 @@ div.sol > img {
       transform: rotate(360deg) translate(120px) rotate(0deg);
     }
   }
-  
+
   div.jupiter {
     position: absolute;
     height: 200px;
@@ -349,13 +349,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.jupiter > img {
     height: 40px;
     width: 70px;
     animation: jupiter 25s linear infinite;
   }
-  
+
   @keyframes jupiter {
     0% {
       transform: rotate(0deg) translate(100px) rotate(200deg);
@@ -364,7 +364,7 @@ div.sol > img {
       transform: rotate(360deg) translate(100px) rotate(360deg);
     }
   }
-  
+
   div.marte {
     position: absolute;
     height: 150px;
@@ -375,13 +375,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.marte > img {
     height: 20px;
     width: 30px;
     animation: marte 12s linear infinite;
   }
-  
+
   @keyframes marte {
     0% {
       transform: rotate(0deg) translate(75px) rotate(0deg);
@@ -390,7 +390,7 @@ div.sol > img {
       transform: rotate(360deg) translate(75px) rotate(0deg);
     }
   }
-  
+
   div.terra {
     position: absolute;
     height: 130px;
@@ -401,13 +401,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.terra > img {
     height: 30px;
     width: 30px;
     animation: terra 30s linear infinite;
   }
-  
+
   @keyframes terra {
     0% {
       transform: rotate(0deg) translate(65px) rotate(0deg);
@@ -416,7 +416,7 @@ div.sol > img {
       transform: rotate(360deg) translate(65px) rotate(360deg);
     }
   }
-  
+
   div.venus {
     position: absolute;
     height: 100px;
@@ -427,13 +427,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.venus > img {
     height: 20px;
     width: 20px;
     animation: venus 8s linear infinite;
   }
-  
+
   @keyframes venus {
     0% {
       transform: rotate(0deg) translate(50px) rotate(0deg);
@@ -442,7 +442,7 @@ div.sol > img {
       transform: rotate(360deg) translate(50px) rotate(0deg);
     }
   }
-  
+
   div.mercurio {
     position: absolute;
     height: 80px;
@@ -453,13 +453,13 @@ div.sol > img {
     align-items: center;
     border: 1px solid white;
   }
-  
+
   div.mercurio > img {
     height: 20px;
     width: 30px;
     animation: mercurio 14s linear infinite;
   }
-  
+
   @keyframes mercurio {
     0% {
       transform: rotate(0deg) translate(40px) rotate(0deg);
@@ -468,7 +468,7 @@ div.sol > img {
       transform: rotate(360deg) translate(40px) rotate(0deg);
     }
   }
-  
+
   div.sol {
     position: absolute;
     height: 50px;
@@ -479,10 +479,9 @@ div.sol > img {
     align-items: center;
     border: none;
   }
-  
+
   div.sol > img {
     height: 160px;
     width: 160px;
   }
-  
 }
