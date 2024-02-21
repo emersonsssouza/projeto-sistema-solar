@@ -50,6 +50,16 @@
 
     <audio id="audio" src="Interestellar.mp3" loop autoplay></audio>
 
+    <script>
+        window.addEventListener("orientationchange", function () {
+            var orientation = window.screen.orientation || window.screen.mozOrientation || window.screen.msOrientation;
+            if (orientation.type === "landscape-primary" || orientation.type === "landscape-secondary") {
+                // Rotação para o modo paisagem
+                console.log("Modo Paisagem");
+                // Você pode adicionar outras ações aqui, como forçar a rotação de volta para o modo retrato
+            }
+        });
+    </script>
 </body>
 
 </html>
