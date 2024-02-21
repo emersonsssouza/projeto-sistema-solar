@@ -260,7 +260,233 @@ div.sol > img {
   width: 400px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+  div.netuno {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.netuno > img {
+    height: 20px;
+    width: 20px;
+    animation: netuno 28s linear infinite;
+  }
+
+  @keyframes netuno {
+    0% {
+      transform: rotate(0deg) translate(180px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(180px) rotate(0deg);
+    }
+  }
+
+  div.urano {
+    position: absolute;
+    height: 290px;
+    width: 290px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.urano > img {
+    height: 15px;
+    width: 15px;
+    animation: urano 53954ms linear infinite;
+  }
+
+  @keyframes urano {
+    0% {
+      transform: rotate(0deg) translate(145px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(145px) rotate(0deg);
+    }
+  }
+
+  div.saturno {
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.saturno > img {
+    height: 30px;
+    width: 80px;
+    animation: saturno 20s linear infinite;
+  }
+
+  @keyframes saturno {
+    0% {
+      transform: rotate(0deg) translate(120px) rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(120px) rotate(0deg);
+    }
+  }
+
+  div.jupiter {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.jupiter > img {
+    height: 40px;
+    width: 70px;
+    animation: jupiter 25s linear infinite;
+  }
+
+  @keyframes jupiter {
+    0% {
+      transform: rotate(0deg) translate(100px) rotate(200deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(100px) rotate(360deg);
+    }
+  }
+
+  div.marte {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.marte > img {
+    height: 20px;
+    width: 30px;
+    animation: marte 12s linear infinite;
+  }
+
+  @keyframes marte {
+    0% {
+      transform: rotate(0deg) translate(75px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(75px) rotate(0deg);
+    }
+  }
+
+  div.terra {
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.terra > img {
+    height: 30px;
+    width: 30px;
+    animation: terra 30s linear infinite;
+  }
+
+  @keyframes terra {
+    0% {
+      transform: rotate(0deg) translate(65px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(65px) rotate(360deg);
+    }
+  }
+
+  div.venus {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.venus > img {
+    height: 20px;
+    width: 20px;
+    animation: venus 8s linear infinite;
+  }
+
+  @keyframes venus {
+    0% {
+      transform: rotate(0deg) translate(50px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(50px) rotate(0deg);
+    }
+  }
+
+  div.mercurio {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+
+  div.mercurio > img {
+    height: 20px;
+    width: 30px;
+    animation: mercurio 14s linear infinite;
+  }
+
+  @keyframes mercurio {
+    0% {
+      transform: rotate(0deg) translate(40px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(40px) rotate(0deg);
+    }
+  }
+
+  div.sol {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  div.sol > img {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   div.netuno {
     position: absolute;
     height: 350px;
